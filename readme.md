@@ -16,13 +16,13 @@ this command should create some mock products to relate with to subscribe or uns
 
 as a laravel framework you should create a vhost like the following pointing to the folder PUBLIC in your laravel project 
 
-\<VirtualHost *:80>
+`<VirtualHost *:80>
     ServerAdmin webmaster@dummy-host2.example.com
     DocumentRoot "C:/xampp/htdocs/pmconnect/public"
     ServerName api.pmconnect.com
     ErrorLog "logs/books.log"
     CustomLog "logs/books.log" common
-\</VirtualHost>
+</VirtualHost>`
 
 and finally in your hosts file create one entry for the url you have created. like the following:
 
